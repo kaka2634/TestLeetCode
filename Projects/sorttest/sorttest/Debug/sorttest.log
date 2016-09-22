@@ -1,20 +1,20 @@
-﻿生成启动时间为 2016/9/21 22:54:58。
-     1>项目“d:\documents\visual studio 2012\Projects\sorttest\sorttest\sorttest.vcxproj”在节点 2 上(Build 个目标)。
+﻿生成启动时间为 2016/9/23 0:18:10。
+     1>项目“E:\git\Projects\sorttest\sorttest\sorttest.vcxproj”在节点 2 上(Build 个目标)。
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\sorttest.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt sorttest.cpp
          sorttest.cpp
-     1>d:\documents\visual studio 2012\projects\sorttest\sorttest\sorttest.cpp(13): warning C4018: “<”: 有符号/无符号不匹配
-                 d:\documents\visual studio 2012\projects\sorttest\sorttest\sorttest.cpp(31): 参见对正在编译的函数 模板 实例化“void insertsort<int>(std::vector<_Ty> &)”的引用
+     1>e:\git\projects\sorttest\sorttest\sorttest.cpp(29): warning C4018: “<”: 有符号/无符号不匹配
+                 e:\git\projects\sorttest\sorttest\sorttest.cpp(50): 参见对正在编译的函数 模板 实例化“void shellsort<int>(std::vector<_Ty> &)”的引用
                  with
                  [
                      _Ty=int
                  ]
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"d:\documents\visual studio 2012\Projects\sorttest\Debug\sorttest.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"d:\documents\visual studio 2012\Projects\sorttest\Debug\sorttest.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"d:\documents\visual studio 2012\Projects\sorttest\Debug\sorttest.lib" /MACHINE:X86 Debug\sorttest.obj
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\git\Projects\sorttest\Debug\sorttest.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\git\Projects\sorttest\Debug\sorttest.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\git\Projects\sorttest\Debug\sorttest.lib" /MACHINE:X86 Debug\sorttest.obj
          Debug\stdafx.obj
-         sorttest.vcxproj -> d:\documents\visual studio 2012\Projects\sorttest\Debug\sorttest.exe
-     1>已完成生成项目“d:\documents\visual studio 2012\Projects\sorttest\sorttest\sorttest.vcxproj”(Build 个目标)的操作。
+         sorttest.vcxproj -> E:\git\Projects\sorttest\Debug\sorttest.exe
+     1>已完成生成项目“E:\git\Projects\sorttest\sorttest\sorttest.vcxproj”(Build 个目标)的操作。
 
 生成成功。
 
-已用时间 00:00:02.36
+已用时间 00:00:03.73
